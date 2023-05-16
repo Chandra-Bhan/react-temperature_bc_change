@@ -11,7 +11,7 @@ export default function App() {
     } else if (temperature > 30 && temperature <= 50) {
       setBackColor('orange');
     } else if (temperature > 50) {
-      setBackColor('orange');
+      setBackColor('red');
     } else {
       setBackColor('#1C5470');
     }
